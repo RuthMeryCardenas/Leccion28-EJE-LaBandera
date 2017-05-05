@@ -14,7 +14,7 @@ h3 {
 
 section {
   border: 1px solid gray;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 800px;
 }
 
@@ -36,12 +36,17 @@ section {
 }
 
 #initial-structure {
+
 }
 
-#point-1 {
+#point-1, #point-2 {
   overflow: auto;
 }
 
 #point-1 .vertical-strip {
   float: left;
+}
+
+#point-2 .vertical-strip {
+  float: right;
 }
