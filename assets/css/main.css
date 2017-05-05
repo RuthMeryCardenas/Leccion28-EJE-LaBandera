@@ -12,9 +12,15 @@ h3 {
   margin: 10px 0;
 }
 
+section {
+  border: 1px solid gray;
+  margin: 0 auto;
+  width: 800px;
+}
+
 .vertical-strip {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .vertical-strip:nth-child(1) {
@@ -30,7 +36,12 @@ h3 {
 }
 
 #initial-structure {
-  border: 1px solid gray;
-  margin: 0 auto;
-  width: 450px;
+}
+
+#point-1 {
+  overflow: auto;
+}
+
+#point-1 .vertical-strip {
+  float: left;
 }
