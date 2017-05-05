@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+#initial-structure {
+  border: 1px solid gray;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.vertical-strip {
+  height: 150px;
+  width: 150px;
+}
+
+.vertical-strip:nth-child(1) {
+  background-color: yellow;
+}
+
+.vertical-strip:nth-child(2) {
+  background-color: blue;
+}
+
+.vertical-strip:nth-child(3) {
+  background-color: red;
+}
